@@ -1,0 +1,11 @@
+{
+  "name": "business_card",
+  "version": "1.0.0",
+  "description": "My business card",
+  "author": "Mitsuo Utano",
+  "license": "MIT",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.css": "^7.0.0"
+  }
+}

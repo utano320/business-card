@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+html {
+  background: #efefef;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin: 20px;
+}
+
+.card-area {
+  background: #fff;
+  width: 1098px;
+  height: 664px;
+  margin: 50px;
+}
+
+/* = #front ========================================= *
+ * -------------------------------------------------- */
+#front {}
+
+/* = .front-first-area ============================== *
+ * -------------------------------------------------- */
+.front-first-area {
+  position: relative;
+  height: 200px;
+  color: #def2ed;
+  background-color: #0fcea0;
+}
+.front-first-area * {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+.title {
+  top: 20px;
+  left: 20px;
+  font-size: 90px;
+}
+.subtitle {
+  left: 60px;
+  bottom: 20px;
+  font-size: 30px;
+}
+.qr {
+  top: 20px;
+  right: 20px;
+  width: 160px;
+}
+
+/* = .front-second-area ============================= *
+ * -------------------------------------------------- */
+.front-second-area {
+  position: relative;
+  height: 300px;
+  color: #222;
+}
+.front-second-area * {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+.site-url {
+  color: #00a079;
+  right: 20px;
+  top: 20px;
+  font-size: 30px;
+}
+.job {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  top: 100px;
+}
+.name-jp {
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  top: 180px;
+}
+.name-en {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  top: 250px;
+}
+
+/* = .front-third-area ============================== *
+ * -------------------------------------------------- */
+.front-third-area {
+  position: relative;
+  height: 164px;
+  /*background-color: #00140f;*/
+  /*color: #fff;*/
+}
+.front-third-area * {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+.contact {
+  left: 40px;
+  font-size: 20px;
+}
+.contact-github {
+  bottom: 120px;
+}
+.contact-twitter {
+  bottom: 90px;
+}
+.contact-mail {
+  bottom: 60px;
+}
+.contact-info {
+  left: 30px;
+}
+.fa-github {
+  color: #24292e;
+}
+.fa-twitter {
+  color: #1ea0f3;
+}
+.fa-envelope {
+  color: #c00000;
+}
+
+.icon-tcc {
+  width: 100px;
+  right: 140px;
+}
+.icon-wb {
+  width: 100px;
+  right: 20px;
+}
+.developer {
+  text-align: center;
+  font-weight: bold;
+  right: 20px;
+  bottom: 20px;
+}
+
+/* = #back ========================================== *
+ * -------------------------------------------------- */
+#back {}
+
+/* = .back-first-area =============================== *
+ * -------------------------------------------------- */
+.back-first-area {
+  position: relative;
+  height: 150px;
+}
+.back-first-area * {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+.about-header {
+  color: #00a079;
+  top: 100px;
+  left: 80px;
+  font-size: 30px;
+  border-bottom: 1px dashed #00a079;
+  width: 898px;
+}
+
+/* = .back-second-area ============================== *
+ * -------------------------------------------------- */
+.back-second-area {
+  position: relative;
+  height: 364px;
+}
+.back-second-area ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: #666;
+}
+.about-list {
+  left: 140px;
+  top: 20px;
+}
+.about-list li {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.skill-list {
+  top: 0px;
+  right: 80px;
+  width: 250px;
+  list-style-type: none;
+}
+.skill-list li {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  color: #deedf2;
+  background-color: #1ea0f3;
+  border-radius: 5px;
+}
+
+/* = .back-third-area =============================== *
+ * -------------------------------------------------- */
+.back-third-area {
+  position: relative;
+  height: 150px;
+}
+.back-third-area * {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+.about-more {
+  right: 250px;
+  bottom: 60px;
+  font-size: 20px;
+}
+.about-qr {
+  right: 80px;
+  bottom: 40px;
+  width: 150px;
+}
